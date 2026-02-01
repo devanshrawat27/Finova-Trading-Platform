@@ -1,91 +1,74 @@
-# 🚀 Finova — Full-Stack Trading Platform (MERN)
+# 🚀 Finova — Full-Stack Trading & Investment Platform
 
 <p align="center">
-  <img src="ss/Screenshot%202026-02-01%20130334.png" width="900"/>
+  <img src="ss/Screenshot%202026-02-01%20153300.png " width="900"/>
 </p>
 
 <p align="center">
-  <b>A Zerodha-inspired trading platform built with MERN Stack.</b><br/>
-  Real dashboard • Brokerage system • Support portal • Modern UI
+<b>Finova is a modern full-stack trading platform designed to simulate real-world investing workflows.</b><br/>
+Dashboard • Brokerage • Holdings • Support Portal • MERN Architecture
 </p>
 
 <p align="center">
 
-![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
-![Node](https://img.shields.io/badge/Node.js-20-339933?logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-black?logo=express)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white)
+![React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react&logoColor=black)
+![Node](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/API-Express-black?logo=express)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB_Atlas-47A248?logo=mongodb&logoColor=white)
 ![JWT](https://img.shields.io/badge/Auth-JWT-orange)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap)
+![Bootstrap](https://img.shields.io/badge/UI-Bootstrap_5-purple?logo=bootstrap)
+![Status](https://img.shields.io/badge/Status-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 </p>
 
 ---
 
-## 📌 Overview
+## ✨ Overview
 
-Finova is a modern MERN based trading platform inspired by Zerodha.
+Finova is a complete MERN-based trading and investment simulation platform.
 
-Features included:
+The goal of Finova is to replicate real market workflows while focusing on:
 
-- Trading Dashboard  
-- Holdings & Positions  
-- Brokerage Pricing  
-- Support Portal  
-- JWT Authentication  
-- MERN Architecture  
+• Clean UI design  
+• Modular backend  
+• Secure authentication  
+• Professional dashboard experience  
 
-Built mainly for learning system design + frontend engineering.
+This project demonstrates full-stack engineering skills including frontend architecture, REST APIs, database modeling, and UI systems.
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Core Modules
 
-Coming Soon (Render / Vercel)
+### 🔐 Authentication
+- JWT based login/signup
+- Protected dashboard routes
 
----
-
-## 📑 Table of Contents
-
-- Features
-- Tech Stack
-- Screenshots
-- Architecture
-- Project Structure
-- Installation
-- Roadmap
-- Disclaimer
-
----
-
-## ✨ Features
-
-### Authentication
-- JWT Login / Signup
-- Protected Routes
-
-### Dashboard
+### 📊 Trading Dashboard
 - Watchlist
 - Holdings
 - Positions
 - Orders
 - Funds
 
-### Brokerage
-- Equity / Currency / Commodity
-- AMC tables
-- Charges explained
+### 💰 Brokerage System
+- Equity / Currency / Commodity tabs
+- AMC slabs
+- Charges tables
+- Cost calculator link
 
-### Support Portal
-- Accordion UI
-- Nested links
-- Search
+### 🛟 Support Portal
+- Accordion navigation
+- Nested categories
+- Search bar
+- Quick links panel
 
-### Backend
-- Express APIs
+### ⚙ Backend
+- REST APIs
 - MongoDB Atlas
-- Mongoose Models
+- Mongoose models
+- Modular routes
 
 ---
 
@@ -94,13 +77,18 @@ Coming Soon (Render / Vercel)
 Frontend:
 - React
 - Bootstrap 5
-- CSS
+- Custom CSS
 
 Backend:
 - Node.js
-- Express
+- Express.js
 - MongoDB Atlas
-- JWT
+- JWT Authentication
+
+Architecture:
+- MERN Stack
+- Component driven UI
+- REST API structure
 
 ---
 
@@ -113,7 +101,7 @@ Backend:
 
 <p align="center">
 <img src="ss/Screenshot%202026-02-01%20130424.png" width="45%"/>
-<img src="ss/Screenshot%202026-02-01%20153300.png" width="45%"/>
+<img src="ss/Screenshot%202026-02-01%20130334.png" width="45%"/>
 </p>
 
 <p align="center">
@@ -123,9 +111,15 @@ Backend:
 
 ---
 
-## 🏗 Architecture
+## 🏗 System Architecture
 
-Frontend → Dashboard → Backend → MongoDB Atlas
+Frontend (React)
+        ↓
+Backend API (Express)
+        ↓
+Database (MongoDB Atlas)
+
+JWT manages authentication across layers.
 
 ---
 
@@ -133,58 +127,64 @@ Frontend → Dashboard → Backend → MongoDB Atlas
 
 Finova-Trading-Platform/
 │
-├── backend/
-├── frontend/
-├── dashboard/
-├── ss/
+├── backend/      → API + Models
+├── frontend/     → Landing pages
+├── dashboard/    → Trading UI
+├── ss/           → Screenshots
 └── README.md
 
 ---
 
 ## ▶ Installation
 
-Clone repo:
+Clone repository:
 
 git clone https://github.com/devanshrawat27/Finova-Trading-Platform.git
 
 Backend:
 
-cd backend
-npm install
-npm start
+cd backend  
+npm install  
+npm start  
 
 Frontend:
 
-cd frontend
-npm install
-npm run dev
+cd frontend  
+npm install  
+npm run dev  
 
 Dashboard:
 
-cd dashboard
-npm install
-npm run dev
+cd dashboard  
+npm install  
+npm run dev  
 
 ---
 
 ## 🛣 Roadmap
 
-- Live market API
-- Charts
+✔ UI dashboard  
+✔ Brokerage system  
+✔ Support portal  
+
+Upcoming:
+
+- Live price API
+- Interactive charts
 - Notifications
-- Admin Panel
-- Dark Mode
-- Mobile UI
+- Admin panel
+- Dark mode
+- Mobile responsiveness
 
 ---
 
 ## ⚠ Disclaimer
 
-Educational project only.
+Finova is an educational project.
 
-No real trading.
-Dummy data.
-UI inspired by Zerodha.
+No real trading takes place.  
+All values are mock data.  
+Built for learning full-stack system design.
 
 ---
 
@@ -195,4 +195,4 @@ GitHub: https://github.com/devanshrawat27
 
 ---
 
-⭐ Give a star if you like the project!
+⭐ If this project helped you learn something — consider giving it a star!
