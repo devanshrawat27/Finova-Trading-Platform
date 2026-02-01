@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.footer-link {
+  display: block;
+  color: #444;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-link:hover {
+  color: #2962ff;
+}
+
+.footer-mini {
+  text-decoration: none;
+  color: #777;
+  font-size: 13px;
+}
+
+.footer-mini:hover {
+  color: #2962ff;
+}
+
+footer svg {
+  font-size: 18px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+
+p {
+  transition: all 0.2s ease;
+}
+
+p:hover {
+  color: #000;
+}
+
+
+
+.team-card {
+  background: #fff;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+  transition: 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-6px);
+}
+
+
+
+
+
+.founder-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.06);
+}
+
+/* Founder Image */
+.founder-img {
+  width: 210px;
+  height: 210px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+/* Social icons */
+.social {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.social:hover {
+  background: #2962ff;
+  color: white;
+}
+
+/* Team images */
+.team-img {
+  width:210px;
+  height: 210px;
+  border-radius: 70%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.team-img:hover {
+  transform: scale(1.05);
+}
+
+
+.universe-icon {
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .universe-icon {
+    height: 60px;
+  }
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.brokerage-page {
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.pricing-tab {
+  cursor: pointer;
+  padding-bottom: 10px;
+  font-weight: 500;
+  color: #444;
+}
+
+.pricing-tab.active {
+  border-bottom: 2px solid #2962ff;
+  color: #2962ff;
+}
+
+.free-badge {
+  background: #28a745;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 10px;
+}
+
+.calc-link {
+  color: #2962ff;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.charges-explained h6 {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.charges-explained p,
+.charges-explained li {
+  color: #555;
+  font-size: 13.5px;
+  line-height: 1.7;
+}
+
+
+{/* STYLES */}
+      
+
+        .accordion-card{
+          border:1px solid #eee;
+          border-radius:10px;
+          margin-bottom:14px;
+          overflow:hidden;
+          background:white;
+        }
+
+        .accordion-header{
+          padding:16px 20px;
+          display:flex;
+          justify-content:space-between;
+          align-items:center;
+          cursor:pointer;
+          background:#fafafa;
+        }
+
+        .icon-circle{
+          width:36px;
+          height:36px;
+          border-radius:50%;
+          background:#eef4ff;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          color:#2962ff;
+        }
+
+        .accordion-body{
+          max-height:0;
+          overflow:hidden;
+          transition:0.3s ease;
+          padding:0 20px;
+        }
+
+        .accordion-body.show{
+          max-height:300px;
+          padding-bottom:15px;
+        }
+
+        .inner-link{
+          display:block;
+          padding:8px 0;
+          color:#2962ff;
+          text-decoration:none;
+          font-size:14px;
+        }
+
+        .inner-link:hover{
+          text-decoration:underline;
+        }
+
+        .alert-box{
+          background:#fff4e5;
+          border-left:4px solid orange;
+          padding:15px;
+          margin-bottom:20px;
+          border-radius:6px;
+        }
+
+        .alert-box a{
+          color:#2962ff;
+          text-decoration:none;
+        }
+
+        .quick-card{
+          border:1px solid #eee;
+          border-radius:10px;
+          overflow:hidden;
+        }
+
+        .quick-card h6{
+          padding:15px;
+          border-bottom:1px solid #eee;
+        }
+
+        .quick-link{
+          display:block;
+          padding:12px 15px;
+          border-bottom:1px solid #f2f2f2;
+          color:#2962ff;
+          text-decoration:none;
+          font-size:14px;
+        }
+
+        .quick-link:hover{
+          background:#f9fbff;
+        }
+
+      
