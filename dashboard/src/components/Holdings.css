@@ -1,0 +1,155 @@
+.holdings-wrapper {
+  padding: 10px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Table base */
+
+.order-table {
+  background: white;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table th {
+  background: #f7f8fa;
+  font-weight: 500;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* desktop hover */
+@media (min-width: 768px){
+  .order-table tbody tr:hover{background:#fbfdff; transform:translateY(-1px); box-shadow:0 6px 18px rgba(2,6,23,0.04); transition: all .18s ease}
+}
+
+
+/* Profit loss */
+
+.profit {
+  color: #2ecc71;
+}
+
+.loss {
+  color: #e74c3c;
+}
+
+/* Hover (desktop only) */
+
+@media (min-width: 768px) {
+  tbody tr:hover {
+    background: #f5f7fa;
+  }
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+  .table thead {
+    display: none;
+  }
+
+  .table,
+  .table tbody,
+  .table tr,
+  .table td {
+    display: block;
+    width: 100%;
+  }
+
+  .table tr {
+    margin-bottom: 14px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 10px;
+    background: white;
+  }
+
+  .table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border: none;
+    font-size: 13px;
+  }
+
+  .table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: #666;
+  }
+}
+
+/* Animations */
+
+.fade-in {
+  animation: fade 0.5s ease;
+}
+
+.slide-up {
+  animation: slide 0.5s ease;
+}
+
+.row-animate {
+  animation: rowFade 0.3s ease;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rowFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Vertical chart container sizing - smaller so it fits on one screen without much scrolling */
+.vertical-chart {
+  height: 320px; /* reduced height to fit on a single screen */
+  margin-top: 18px;
+}
+
+@media (max-width: 768px) {
+  .vertical-chart {
+    height: 220px; /* more compact on small screens */
+  }
+}
