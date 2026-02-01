@@ -1,234 +1,198 @@
-🚀 Finova Trading Platform
-<p align="center"> <img src="ss/Screenshot%202026-02-01%20130334.png" width="900"/> </p> <p align="center"> <strong>A modern full-stack trading platform inspired by Zerodha — built with MERN Stack.</strong> </p> <p align="center">
+# 🚀 Finova — Full-Stack Trading Platform (MERN)
 
+<p align="center">
+  <img src="ss/Screenshot%202026-02-01%20130334.png" width="900"/>
+</p>
 
+<p align="center">
+  <b>A Zerodha-inspired trading platform built with MERN Stack.</b><br/>
+  Real dashboard • Brokerage system • Support portal • Modern UI
+</p>
 
+<p align="center">
 
-
-
-
-
-
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
+![Node](https://img.shields.io/badge/Node.js-20-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-black?logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
 </p>
-✨ Overview
 
-Finova Trading Platform is a complete full-stack demo trading ecosystem inspired by Zerodha.
+---
 
-It focuses on:
+## 📌 Overview
 
-✔ Professional UI/UX
-✔ Real dashboard structure
-✔ Brokerage system
-✔ Support portal
-✔ Holdings & positions
-✔ Authentication backend
+Finova is a modern MERN based trading platform inspired by Zerodha.
 
-Built mainly for:
+Features included:
 
-Learning system design
+- Trading Dashboard  
+- Holdings & Positions  
+- Brokerage Pricing  
+- Support Portal  
+- JWT Authentication  
+- MERN Architecture  
 
-Frontend architecture
+Built mainly for learning system design + frontend engineering.
 
-MERN integration
+---
 
-Portfolio showcase
+## 🚀 Live Demo
 
-🖼 Screenshots
-Landing Page
-<img src="ss/Screenshot%202026-02-01%20130352.png" width="900"/>
-Dashboard + Watchlist
-<img src="ss/Screenshot%202026-02-01%20130404.png" width="900"/>
-Holdings & Positions
-<img src="ss/Screenshot%202026-02-01%20130424.png" width="900"/>
-Pricing / Brokerage
-<img src="ss/Screenshot%202026-02-01%20153300.png" width="900"/>
-Support Portal
-<img src="ss/Screenshot%202026-02-01%20153322.png" width="900"/>
-Account & Extra Pages
-<img src="ss/Screenshot%202026-02-01%20153353.png" width="900"/>
-🧠 Key Features
-🔐 Authentication
+Coming Soon (Render / Vercel)
 
-Signup / Login
+---
 
-JWT based auth
+## 📑 Table of Contents
 
-Protected routes
+- Features
+- Tech Stack
+- Screenshots
+- Architecture
+- Project Structure
+- Installation
+- Roadmap
+- Disclaimer
 
-📊 Trading Dashboard
+---
 
-Watchlist
+## ✨ Features
 
-Holdings
+### Authentication
+- JWT Login / Signup
+- Protected Routes
 
-Positions
+### Dashboard
+- Watchlist
+- Holdings
+- Positions
+- Orders
+- Funds
 
-Orders
+### Brokerage
+- Equity / Currency / Commodity
+- AMC tables
+- Charges explained
 
-Funds
+### Support Portal
+- Accordion UI
+- Nested links
+- Search
 
-Apps
+### Backend
+- Express APIs
+- MongoDB Atlas
+- Mongoose Models
 
-💰 Pricing System
+---
 
-Equity / Currency / Commodity tabs
+## 🛠 Tech Stack
 
-Brokerage tables
+Frontend:
+- React
+- Bootstrap 5
+- CSS
 
-Account opening charges
+Backend:
+- Node.js
+- Express
+- MongoDB Atlas
+- JWT
 
-AMC system
+---
 
-Optional services
+## 🖼 Screenshots
 
-Charges explained section
+<p align="center">
+<img src="ss/Screenshot%202026-02-01%20130352.png" width="45%"/>
+<img src="ss/Screenshot%202026-02-01%20130404.png" width="45%"/>
+</p>
 
-🧑‍💻 Support Portal
+<p align="center">
+<img src="ss/Screenshot%202026-02-01%20130424.png" width="45%"/>
+<img src="ss/Screenshot%202026-02-01%20153300.png" width="45%"/>
+</p>
 
-Accordion categories
+<p align="center">
+<img src="ss/Screenshot%202026-02-01%20153322.png" width="45%"/>
+<img src="ss/Screenshot%202026-02-01%20153353.png" width="45%"/>
+</p>
 
-Nested links
+---
 
-Search
+## 🏗 Architecture
 
-Professional layout
+Frontend → Dashboard → Backend → MongoDB Atlas
 
-⚙ Backend APIs
+---
 
-Express server
+## 📂 Project Structure
 
-MongoDB database
-
-User authentication
-
-Holdings & positions APIs
-
-🏗 Architecture
-Frontend (Landing)
-        ↓
-Dashboard (Trading UI)
-        ↓
-Backend API (Node + Express)
-        ↓
-MongoDB Database
-
-🛠 Tech Stack
-Frontend
-
-React
-
-React Router
-
-Bootstrap + CSS
-
-Axios
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB
-
-Mongoose
-
-JWT Authentication
-
-📂 Folder Structure
 Finova-Trading-Platform/
 │
-├── backend/        → API + Database
-├── frontend/       → Marketing Website
-├── dashboard/      → Trading Dashboard
-├── ss/             → Screenshots
+├── backend/
+├── frontend/
+├── dashboard/
+├── ss/
 └── README.md
 
-▶ Run Locally
-Clone
+---
+
+## ▶ Installation
+
+Clone repo:
+
 git clone https://github.com/devanshrawat27/Finova-Trading-Platform.git
 
-Backend
+Backend:
+
 cd backend
 npm install
 npm start
 
-Frontend
+Frontend:
+
 cd frontend
 npm install
 npm run dev
 
-Dashboard
+Dashboard:
+
 cd dashboard
 npm install
 npm run dev
 
-🌐 Deployment (Optional)
+---
 
-You can deploy:
+## 🛣 Roadmap
 
-Frontend / Dashboard
+- Live market API
+- Charts
+- Notifications
+- Admin Panel
+- Dark Mode
+- Mobile UI
 
-Vercel
+---
 
-Netlify
+## ⚠ Disclaimer
 
-Backend
+Educational project only.
 
-Render
+No real trading.
+Dummy data.
+UI inspired by Zerodha.
 
-Railway
+---
 
-Cyclic
+## 👨‍💻 Author
 
-Database
+Devansh Rawat  
+GitHub: https://github.com/devanshrawat27  
 
-MongoDB Atlas
+---
 
-🛣 Roadmap
-
-Live market APIs
-
-TradingView charts
-
-Paper trading
-
-Notifications
-
-Admin panel
-
-Mobile responsive UI
-
-Dark mode
-
-🤝 Contribution
-
-Contributions welcome!
-
-Fork repo
-
-Create branch
-
-Commit changes
-
-Open PR
-
-⚠ Disclaimer
-
-This project is strictly for educational & portfolio purposes.
-
-No real trading
-
-No financial advice
-
-Dummy market values
-
-UI inspired by Zerodha
-
-👨‍💻 Author
-Devansh Rawat
-
-GitHub: https://github.com/devanshrawat27
-
-⭐ If you like this project — give it a star!
+⭐ Give a star if you like the project!
