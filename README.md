@@ -159,32 +159,6 @@ cd dashboard
 npm install  
 npm run dev  
 
----
-
-## 🛣 Roadmap
-
-✔ UI dashboard  
-✔ Brokerage system  
-✔ Support portal  
-
-Upcoming:
-
-- Live price API
-- Interactive charts
-- Notifications
-- Admin panel
-- Dark mode
-- Mobile responsiveness
-
----
-
-## ⚠ Disclaimer
-
-Finova is an educational project.
-
-No real trading takes place.  
-All values are mock data.  
-Built for learning full-stack system design.
 
 ---
 
